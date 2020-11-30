@@ -67,3 +67,7 @@ refTest() {
     this.$refs.test.focus()
 }
 ```
+
+<img src="./gitImages/v_on_submit.PNG" />
+
+해당 사진과 같이 submit 이벤트는 v-on:(이벤트명) 으로 작동한다.
