@@ -1,8 +1,12 @@
-# What is View JS?
+유튜브 <a href="https://www.youtube.com/channel/UCp-vBtwvBmDiGqjvLjChaJw">제로초 </a> 님 VueJS 강의를 참고하여 만듦
+
+<img src="./gitImages/zerocho_profile.PNG">
+
+[구구단](#구구단)
 
 [끝말잇기](#끝말잇기)
 
-[구구단](#구구단)
+# What is View JS?
 
 <img src="./gitImages/View_Logo.PNG" />
 
@@ -70,6 +74,33 @@ const app = new Vue({
 refTest() {
     this.$refs.test.focus()
 }
+```
+
+## 컴포넌트 생성
+
+```javascript
+// 이때 CamelCase 보다는
+// CababCase 로 작성해주는것이 좋다
+// Example => component-name
+//  X => ComponentName
+Vue.component('컴포넌트명', {
+    template:`
+        <html 코드작성>
+        </>
+    `,
+    data() {
+        return {
+            value:'test'
+        }
+    },
+    methods: {
+
+    }
+})
+
+// 이렇게 활용 가능하다
+
+<컴포넌트명 />
 ```
 
 <img src="./gitImages/v_on_submit.PNG" />

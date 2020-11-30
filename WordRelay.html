@@ -8,20 +8,26 @@
 	</head>
 	<body>
 		<div id="root">
-			<div>{{word}}</div>
-			<form v-on:submit="onSubmit">
-				<input type="text" ref="answer" v-model="value" />
-				<input type="submit" />
-			</form>
-			<div>{{result}}</div>
+			<word-relay />
 		</div>
 		<script>
-			const app = new Vue({
-				el: '#root',
-				data: {
-					word: '김우빈',
-					value: '',
-					result: ''
+			Vue.component('word-relay', {
+				template: `
+                <div>
+                    <div>{{word}}</div>
+                        <form v-on:submit="onSubmit">
+                            <input type="text" ref="answer" v-model="value" />
+                            <input type="submit" />
+                        </form>
+                    <div>{{result}}</div>
+                </div>
+                `,
+				data() {
+					return {
+						word: '김우빈',
+						value: '',
+						result: ''
+					};
 				},
 				methods: {
 					onSubmit(e) {
@@ -37,6 +43,11 @@
 						}
 					}
 				}
+			});
+		</script>
+		<script>
+			const app = new Vue({
+				el: '#root'
 			});
 		</script>
 	</body>
