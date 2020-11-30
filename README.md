@@ -1,5 +1,9 @@
 # What is View JS?
 
+[끝말잇기](#끝말잇기)
+
+[구구단](#구구단)
+
 <img src="./gitImages/View_Logo.PNG" />
 
 ## 왜 VueJs 인가
@@ -72,7 +76,7 @@ refTest() {
 
 해당 사진과 같이 submit 이벤트는 v-on:(이벤트명) 으로 작동한다.
 
-# 구구단 만들기
+# 구구단
 
 <img src="./gitImages/gugudan_main.PNG">
 
