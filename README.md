@@ -71,3 +71,19 @@ refTest() {
 <img src="./gitImages/v_on_submit.PNG" />
 
 해당 사진과 같이 submit 이벤트는 v-on:(이벤트명) 으로 작동한다.
+
+# 구구단 만들기
+
+<img src="./gitImages/gugudan_main.PNG">
+
+## 구구단 Vue 코드
+
+<img src="./gitImages/gugudan_main_code.PNG">
+
+# 끝말잇기
+
+<img src="./gitImages/WordRelay_Main.PNG">
+
+## 끝말잇기 Vue 코드
+
+<img src="./gitImages/WordRelay_Main_Code.PNG">
