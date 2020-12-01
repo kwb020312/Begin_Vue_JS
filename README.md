@@ -173,6 +173,13 @@ clear 작업을 해주어야 컴파일시 오류가 생기지 않는다
  scope 옵션이 붙는다면 해당 컴포넌트에만 적용,
 아니라면 전역적인 스타일이 적용된다
 
+# DevTools
+
+<img src="./gitImages/vue_devtool.PNG" />
+
+해당 웹 확장프로그램을 설치하면 간편한 UI 를
+볼 수 있다.
+
 # WebPack
 
 <img src="./gitImages/webpack_logo.PNG">
