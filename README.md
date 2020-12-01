@@ -8,6 +8,8 @@
 
 [끝말잇기](#끝말잇기)
 
+[숫자야구](#숫자야구)
+
 # What is View JS?
 
 <img src="./gitImages/View_Logo.PNG" />
@@ -30,6 +32,19 @@
 
 ```javascript
 npm install vue
+```
+
+## CreateVueApp(Yarn)
+
+```javascript
+yarn global add @vue/cli @vue/cli-service-global
+
+vue create (폴더명)
+
+cd (폴더명)
+
+yarn serve
+// 실행
 ```
 
 ## 어떻게 사용해요?
@@ -156,3 +171,11 @@ webpack.config.js 파일을 만들어 해당 내용을 입력해 준다.
 ## 끝말잇기 Vue 코드
 
 <img src="./gitImages/WordRelay_Main_Code.PNG">
+
+# 숫자야구
+
+<img src="./gitImages/NumberBase_Main.PNG">
+
+## 숫자야구 Vue 코드
+
+<img src="./gitImages/NumberBase_Code.PNG">
