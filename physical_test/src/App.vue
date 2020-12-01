@@ -1,6 +1,6 @@
 <template>
 	<center>
-		<div id="screen" :class="state">
+		<div id="screen" @click="onChangeScreen" :class="state">
 			<p>클릭해서 시작하세요</p>
 		</div>
 		<h1>평균 시간: {{}}</h1>
@@ -16,7 +16,20 @@ export default {
 			state: 'start'
 		};
 	},
-	methods: {}
+	methods: {
+		onChangeScreen() {
+			switch (this.state) {
+				case 'start':
+					return (this.state = 'wait');
+				case 'wait':
+					return (this.state = 'go');
+				case 'go':
+					return (this.state = 'start');
+				default:
+					return (this.state = 'start');
+			}
+		}
+	}
 };
 </script>
 
@@ -31,5 +44,8 @@ export default {
 }
 .wait {
 	background-color: red;
+}
+.go {
+	background-color: greenyellow;
 }
 </style>
