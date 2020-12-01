@@ -170,7 +170,6 @@ clear 작업을 해주어야 컴파일시 오류가 생기지 않는다
 
 <img src="./gitImages/style_scope.png" />
 
-<style scope>
  scope 옵션이 붙는다면 해당 컴포넌트에만 적용,
 아니라면 전역적인 스타일이 적용된다
 
