@@ -145,6 +145,13 @@ Vue.component('컴포넌트명', {
 <img src="./gitImages/v_on_submit.PNG" />
 
 해당 사진과 같이 submit 이벤트는 v-on:(이벤트명) 으로 작동한다.
+@(이벤트명) 으로 대체 가능하다.
+
+<img src="./gitImages/v_bind_state.PNG" />
+
+해당 사진과 같이 class 나 id 나 value 등 속성에 state값을 동적으로 주고싶은 경우
+v-bind:(속성명) 으로 작동하며,
+:(state명) 으로 대체 가능하다.
 
 # WebPack
 
@@ -179,3 +186,7 @@ webpack.config.js 파일을 만들어 해당 내용을 입력해 준다.
 ## 숫자야구 Vue 코드
 
 <img src="./gitImages/NumberBase_Code.PNG">
+
+# 순발력게임
+
+## 순발력 Vue 코드
