@@ -103,6 +103,28 @@ Vue.component('컴포넌트명', {
 <컴포넌트명 />
 ```
 
+## Props
+
+```javascript
+<html>
+    /* Props정의 */
+    <test-component test-prop="test" />
+</html>
+<script>
+    Vue.component('컴포넌트명', {
+        template,
+        // CamelCase 로 받을 수 있음
+        props:['testProp'],
+        data() {
+            return {
+                test: this.testProp
+            }
+        },
+        methods,
+    })
+</script>
+```
+
 <img src="./gitImages/v_on_submit.PNG" />
 
 해당 사진과 같이 submit 이벤트는 v-on:(이벤트명) 으로 작동한다.
