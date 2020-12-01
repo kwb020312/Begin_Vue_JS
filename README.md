@@ -2,6 +2,8 @@
 
 <img src="./gitImages/zerocho_profile.PNG">
 
+[웹팩](#WebPack)
+
 [구구단](#구구단)
 
 [끝말잇기](#끝말잇기)
@@ -128,6 +130,16 @@ Vue.component('컴포넌트명', {
 <img src="./gitImages/v_on_submit.PNG" />
 
 해당 사진과 같이 submit 이벤트는 v-on:(이벤트명) 으로 작동한다.
+
+# WebPack
+
+<img src="./gitImages/webpack_logo.PNG">
+
+## 웹팩은 다양한 모듈들을 하나의 script 로 합쳐주는 작업을 한다.
+
+<img src="./gitImages/webpack_base.PNG">
+
+webpack.config.js 파일을 만들어 해당 내용을 입력해 준다.
 
 # 구구단
 
