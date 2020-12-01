@@ -10,6 +10,8 @@
 
 [숫자야구](#숫자야구)
 
+[순발력게임](#순발력게임)
+
 # What is View JS?
 
 <img src="./gitImages/View_Logo.PNG" />
@@ -153,6 +155,11 @@ Vue.component('컴포넌트명', {
 v-bind:(속성명) 으로 작동하며,
 :(state명) 으로 대체 가능하다.
 
+<img src="./gitImages/timeout_life.PNG" />
+
+setTimeout 등으로 생성한 작업은
+clear 작업을 해주어야 컴파일시 오류가 생기지 않는다
+
 # WebPack
 
 <img src="./gitImages/webpack_logo.PNG">
@@ -189,4 +196,8 @@ webpack.config.js 파일을 만들어 해당 내용을 입력해 준다.
 
 # 순발력게임
 
+<img src="./gitImages/Physical_Game.PNG" />
+
 ## 순발력 Vue 코드
+
+<img src="./gitImages/Physical_Code.PNG" />
