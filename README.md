@@ -166,6 +166,15 @@ v-bind:(속성명) 으로 작동하며,
 setTimeout 등으로 생성한 작업은
 clear 작업을 해주어야 컴파일시 오류가 생기지 않는다
 
+## StyleScope
+
+<img src="./gitImages/style_scope.PNG" />
+
+<style scope>
+ scope 옵션이 붙는다면 해당 컴포넌트에만 적용,
+아니라면 전역적인 스타일이 적용된다
+</style>
+
 # WebPack
 
 <img src="./gitImages/webpack_logo.PNG">

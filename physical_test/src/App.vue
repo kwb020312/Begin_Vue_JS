@@ -48,7 +48,6 @@ export default {
 	}
 };
 </script>
-
 <style scoped>
 #screen {
 	width: 30rem;
