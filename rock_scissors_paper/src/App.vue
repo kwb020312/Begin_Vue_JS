@@ -2,10 +2,9 @@
 	<center>
 		<div
 			:style="{
-				background: `url(https://en.pimg.jp/023/182/267/1/23182267.jpg) 0 0`,
+				background: `url(https://en.pimg.jp/023/182/267/1/23182267.jpg) ${coord} 0`,
 				width: '142px',
-				height: '200px',
-				backgroundPosition: '0 0'
+				height: '200px'
 			}"
 		></div>
 		<input type="button" value="바위" />
@@ -23,7 +22,14 @@
 export default {
 	name: 'App',
 	data() {
-		return {};
+		return {
+			coord: '0'
+		};
+	},
+	computed: {
+		// onChangeCoords(sign) {
+		// 	this.coord = Dictionary.sign;
+		// }
 	}
 };
 </script>

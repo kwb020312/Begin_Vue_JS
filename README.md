@@ -166,6 +166,11 @@ v-bind:(속성명) 으로 작동하며,
 setTimeout 등으로 생성한 작업은
 clear 작업을 해주어야 컴파일시 오류가 생기지 않는다
 
+## Vue Life Cycle
+
+vue 의 라이프 사이클에는
+created , mounted, updated , destroyed 가 있다.
+
 ## StyleScope
 
 <img src="./gitImages/style_scope.png" />
