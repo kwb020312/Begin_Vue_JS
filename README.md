@@ -14,6 +14,8 @@
 
 [가위바위보](#가위바위보)
 
+[로또](#로또)
+
 # What is View JS?
 
 <img src="./gitImages/View_Logo.PNG" />
@@ -236,3 +238,11 @@ webpack.config.js 파일을 만들어 해당 내용을 입력해 준다.
 ## 가위바위보 Vue 코드
 
 <img src="./gitImages/RockScissorsPaper_Code.png" />
+
+# 로또
+
+<img src="./gitImages/Lotto_Balls.PNG" />
+
+## 로또 Vue 코드
+
+<img src="./gitImages/Lotto_Balls_Code.PNG" />
