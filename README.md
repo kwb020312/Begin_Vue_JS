@@ -12,6 +12,8 @@
 
 [순발력게임](#순발력게임)
 
+[가위바위보](#가위바위보)
+
 # What is View JS?
 
 <img src="./gitImages/View_Logo.PNG" />
@@ -226,3 +228,11 @@ webpack.config.js 파일을 만들어 해당 내용을 입력해 준다.
 ## 순발력 Vue 코드
 
 <img src="./gitImages/Physical_Code.PNG" />
+
+# 가위바위보
+
+<img src="./gitImages/RockScissorsPaper.png" />
+
+## 가위바위보 Vue 코드
+
+<img src="./gitImages/RockScissorsPaper_Code.png" />
