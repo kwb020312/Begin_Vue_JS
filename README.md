@@ -164,6 +164,13 @@ this.$root.$data.test = 123 // 으로 변경 가능하나 부모의 상태를 �
 해당 사진과 같이 submit 이벤트는 v-on:(이벤트명) 으로 작동한다.
 @(이벤트명) 으로 대체 가능하다.
 
+## 오브젝트, 배열 변경
+
+```javascript
+test[0][1] = 'test ' // 등으로 값을 변경하는경우 화면에 반영되지 않는다.
+this.$set( test[0]  , 1 , 'test' )  // 위와 같은 결과를 반환하지만 화면에 자동으로 그려진다
+```
+
 ## Using State
 
 <img src="./gitImages/v_bind_state.PNG" />

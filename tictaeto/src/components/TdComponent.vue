@@ -15,6 +15,7 @@ export default Vue.extend({
 	methods: {
 		onClick() {
 			this.$root.$data.turn = this.$root.$data.turn === 'O' ? 'X' : 'O';
+			this.$set(this.$root.$data.table[this.rowIndex], this.cellIndex, this.$root.$data.turn);
 		}
 	}
 });
