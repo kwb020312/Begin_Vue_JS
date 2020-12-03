@@ -148,6 +148,15 @@ Vue.component('컴포넌트명', {
 </script>
 ```
 
+## root , parent State
+
+```javascript
+this.$root.$data // 루트의 state 목록을 가져옴
+this.$parent.$data // 부모의 state 목록을 가져옴
+
+this.$root.$data.test = 123 // 으로 변경 가능하나 부모의 상태를 바꾸는것이 좋지 않음.
+```
+
 ## Event Handler
 
 <img src="./gitImages/v_on_submit.PNG" />

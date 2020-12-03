@@ -1,6 +1,7 @@
 <template>
 	<div>
 		<TableComponent :table="table" />
+		<h2>{{ turn }} 님의 턴 입니다.</h2>
 	</div>
 </template>
 
@@ -18,7 +19,8 @@ export default {
 	},
 	data() {
 		return {
-			table: tableData
+			table: tableData,
+			turn: 'O'
 		};
 	}
 };

@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<table>
+		<table border="1">
 			<TrComponent v-for="(rowData, index) in table" :key="index" :rowData="rowData" :rowIndex="index" />
 		</table>
 	</div>

@@ -1,15 +1,13 @@
 <template>
-	<div>
-		<tr>
-			<TdComponent
-				v-for="(data, index) in rowData"
-				:key="index"
-				:cellData="data"
-				:cellIndex="index"
-				:rowIndex="rowIndex"
-			/>
-		</tr>
-	</div>
+	<tr>
+		<TdComponent
+			v-for="(data, index) in rowData"
+			:key="index"
+			:cellData="data"
+			:cellIndex="index"
+			:rowIndex="rowIndex"
+		/>
+	</tr>
 </template>
 <script lang="ts">
 import Vue from 'vue';
